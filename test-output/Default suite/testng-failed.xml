@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.jira.JiraTestng">
+        <methods>
+          <include name="sessioncreation"/>
+          <include name="issuecreation"/>
+          <include name="getIssue"/>
+          <include name="getComments"/>
+          <include name="addAttachment"/>
+          <include name="comments"/>
+        </methods>
+      </class> <!-- org.jira.JiraTestng -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
